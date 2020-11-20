@@ -1,5 +1,7 @@
 package aaa;
 
+import java.util.Arrays;
+
 /**
  * projectName: Javasenior
  *
@@ -8,4 +10,11 @@ package aaa;
  * description:我
  */
 public class abc {
+    public static void main(String[] args) {
+        System.out.println("abc.main");
+        System.out.println("args = " + Arrays.deepToString(args));
+        System.out.println("args = " + Arrays.deepToString(args));
+        System.out.println();
+        System.out.println("args = " + args);
+    }
 }
